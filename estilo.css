@@ -1,0 +1,27 @@
+body {
+    background: url('bg.jpg') no-repeat;
+}
+
+form {
+    color: white;
+    display: block;
+    width: 20%;
+    margin: 150px auto;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px black;
+    padding: 20px;
+    background-color: rgba(30, 30, 30);
+    transition: background-color 1s, border 1s, box-shadow 1s;
+}
+
+form:hover{
+    background-color: rgba(30, 30, 30, .1);
+    border: rgba(30, 30, 30, .1);
+    box-shadow: none;
+}
+
+input[type=text], input[type='password']{
+    display: block;
+    margin: 10px;
+}
+
